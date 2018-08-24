@@ -12,7 +12,7 @@
 
         "test_mocha_testDirOnly": "mocha",
         "test_mocha_all": "mocha --recursive",
-        "test-mochaawesome": "nyc --reporter=html mocha test/*.js --reporter mochawesome --exit"
+        "test-mochaawesome": "nyc --reporter=html mocha test/*.js --reporter mochawesome --exit",
         "test_mocha_all_TDD_asWellAs_BDD": "mocha --recursive --ui tdd",
 
         "testAndCoverage": "npm run testAndCoverage_via_istanbul && npm run testAndCoverage_via_nyc",
