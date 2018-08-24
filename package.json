@@ -9,7 +9,7 @@
         "test": "npm run testAndCoverage",
 
         "testOnly": "npm run test_mocha_all",
-        "runner": "node server/server.js",
+        "runner": "node src/*.js",
         "lighthouse:ci": "lighthouse --output-path=report/lighthouse-report.html --quiet --chrome-flags='--headless --no-sandbox=true' http://localhost:3000",
 
         "test_mocha_testDirOnly": "mocha",
