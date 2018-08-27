@@ -13,8 +13,9 @@
         "unit-test": "mocha server/utils/*.test.js --timeout 1500",
         "code-coverage-test": "nyc --reporter=html --reporter=text  mocha server/utils/*.test.js --timeout 1500",
         "e2etest": "test/test.js",
-        "lighthouse:ci": "lighthouse --output-path=report/lighthouse-report.html --quiet --chrome-flags='--headless --no-sandbox=true' http://localhost:3000",     
-        "test-mochaawesome": "nyc --reporter=html mocha test/*.js --reporter mochawesome --exit"
+        "test-mochaawesome": "nyc --reporter=html mocha test/*.js --reporter mochawesome --exit",
+        "lighthouse:ci": "lighthouse --output-path=report/lighthouse-report.html --quiet --chrome-flags='--headless --no-sandbox=true' http://localhost:3000"  
+        
     },
     "keywords": ["chai", "istanbul", "mocha", "nyc", "opn-cli", "unit test"],
     "author": "ilker kiris",
