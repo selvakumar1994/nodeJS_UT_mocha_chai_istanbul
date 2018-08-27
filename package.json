@@ -35,6 +35,7 @@
         "openCoverageReport": "npm run openCoverageReport_inBrowser",
         "openCoverageReport_inShell_via_nyc": "nyc report",
         "openCoverageReport_inBrowser": "opn coverage/lcov-report/index.html",
+        "test-mochaawesome": "mocha server/utils/*.test.js --reporter mochawesome",
 
         "testAndCoverageAndReport": "npm run testAndCoverage && npm run openCoverageReport"
     },
